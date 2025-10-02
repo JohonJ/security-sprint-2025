@@ -5,14 +5,15 @@ This report summarizes the results of a Software Composition Analysis (SCA) scan
 
 ## Findings
 
-| Package   | Version | Vulnerability | Severity | Description |
-|-----------|---------|---------------|----------|-------------|
-| Flask     | 2.2.5   | CVE-XXXX-YYYY | Medium   | Example vuln description |
+✅ No known vulnerabilities found in current dependencies.
 
-## Remediation
-- Upgrade Flask to `2.3.0`
-- Re-scan to confirm resolution
+## Scan Details
+- **Tool**: pip-audit
+- **Command**: `pip-audit -r ci-cd-pipeline/requirements.txt`
+- **Date**: October 1, 2025
+- **Dependencies Scanned**: Flask, etc.
 
 ## Status
 ✅ Scan completed  
-🔜 Patch pending
+✅ No action required
+
