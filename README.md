@@ -52,6 +52,13 @@ Welcome to my hands-on security portfolio, built during a focused 4-day sprint t
 - Explore Terraform for cloud infrastructure as code
 - Contribute to open-source security tools
 
+---
+
+## 📊 Repo Status
+
 [![Semgrep Scan](https://img.shields.io/badge/Semgrep-Passed-brightgreen)](https://github.com/JohonJ/security-sprint-2025/actions)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/JohonJ/security-sprint-2025/security.yml?branch=main)](https://github.com/JohonJ/security-sprint-2025/actions)
 [![ZAP Scan](https://img.shields.io/badge/ZAP-Completed-blue)](https://github.com/JohonJ/security-sprint-2025/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/JohonJ/security-sprint-2025/security.yml?branch=main)](https://github.com/JohonJ/security-sprint-2025/actions)
+[![Python Version](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
+[![Repo Size](https://img.shields.io/github/repo-size/JohonJ/security-sprint-2025)](https://github.com/JohonJ/security-sprint-2025)
+[![Last Commit](https://img.shields.io/github/last-commit/JohonJ/security-sprint-2025)](https://github.com/JohonJ/security-sprint-2025/commits/main)
