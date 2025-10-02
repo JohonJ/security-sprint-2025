@@ -1,20 +1,18 @@
 # security-sprint-2025
 # 🔐 Security Sprint Portfolio – John Freeman
 
-Welcome to my hands-on security portfolio, built over a focused 4-day sprint to deepen my expertise in CI/CD, OWASP, DAST, SAST, SCA, SDLC, AWS, and threat modeling. This project reflects my commitment to continuous learning and readiness for application security roles.
+Welcome to my hands-on security portfolio, built during a focused 4-day sprint to deepen expertise in CI/CD, OWASP Top 10, DAST, SAST, SCA, SBOM, and threat modeling. Each folder demonstrates practical skills aligned with application security roles, including automation, vulnerability analysis, and secure SDLC practices.
 
 ---
 
 ## 🧱 Project Structure
 
-| Folder               | Description                                                                 |
-|----------------------|-----------------------------------------------------------------------------|
-| `ci-cd-pipeline`     | GitHub Actions pipeline with linting, testing, and security scans           |
-| `threat-models`      | OWASP Threat Dragon models using STRIDE/DREAD frameworks                    |
-| `sast-dast-sca`      | Scan results and remediation using Semgrep, OWASP ZAP, and Snyk             |
-| `aws-deployment`     | EC2 deployment with IAM roles, S3 bucket config, and security notes         |
-| `sdlc-mapping`       | Visual map of security controls across SDLC phases                          |
-| `star-examples`      | STAR-format interview stories with metrics and outcomes                     |
+| Folder              | Description                                                  |
+|---------------------|--------------------------------------------------------------|
+| .github/workflows   | GitHub Actions workflows for CI/CD and security automation   |
+| owasp-top10         | Examples and mitigations for OWASP Top 10 vulnerabilities    |
+| sast-tools          | Static analysis tools (e.g., Semgrep) and scan reports       |
+| dast-tools          | Dynamic analysis tools (e.g., OWASP ZAP) and vulnerability docs |
 
 ---
 
