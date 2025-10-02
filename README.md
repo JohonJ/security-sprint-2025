@@ -42,9 +42,9 @@ Welcome to my hands-on security portfolio, built over a focused 4-day sprint to 
 
 ## 📫 Contact
 
-- **LinkedIn**: [linkedin.com/in/johnfreeman-sec](https://linkedin.com/in/johnfreeman-sec) *(update if needed)*
+- **LinkedIn**: [linkedin.com/in/freeman264/](https://www.linkedin.com/in/freeman264/) 
 - **Resume**: [Download PDF](#) *(link to your resume or attach in repo)*
-- **Email**: john.freeman@example.com *(replace with your preferred contact)*
+- **Email**: john.freeman.cyber@gmail.com 
 
 ---
 
