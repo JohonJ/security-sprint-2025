@@ -1,4 +1,4 @@
-from flask import Flask, request, escape
+from flask import Flask, request
 
 app = Flask(__name__)
 
@@ -9,9 +9,7 @@ def home():
 @app.route('/vulnerable', methods=['GET'])
 def vulnerable():
     user_input = request.args.get('input')
-    safe_input = escape(user_input)
-    return f"You entered: {safe_input}"
+    return f"You entered: {user_input}"  # ⚠️ Vulnerable to XSS
 
 if __name__ == '__main__':
     app.run(debug=True)
-

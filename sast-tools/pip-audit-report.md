@@ -16,4 +16,7 @@ This report summarizes the results of a Software Composition Analysis (SCA) scan
 ## Status
 ✅ Scan completed  
 ✅ No action required
+<<<<<<< HEAD
 
+=======
+>>>>>>> Add pip-audit report with Flask vulnerability
