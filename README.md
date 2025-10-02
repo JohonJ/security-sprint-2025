@@ -3,6 +3,13 @@
 
 Welcome to my hands-on security portfolio, built during a focused 4-day sprint to deepen expertise in CI/CD, OWASP Top 10, DAST, SAST, SCA, SBOM, and threat modeling. Each folder demonstrates practical skills aligned with application security roles, including automation, vulnerability analysis, and secure SDLC practices.
 
+
+## 📊 SAST: pip-audit Report
+
+This repo includes a pip-audit scan of the Flask application, identifying known vulnerabilities in dependencies.
+
+📍 [View the full report](sast-tools/pip-audit-report.md)
+
 ---
 
 ## 🧱 Project Structure
@@ -51,6 +58,17 @@ Welcome to my hands-on security portfolio, built during a focused 4-day sprint t
 - Expand threat modeling to include multi-tier architectures
 - Explore Terraform for cloud infrastructure as code
 - Contribute to open-source security tools
+
+---
+
+## 🔐 Security Reports
+
+This section highlights vulnerability scans and security tooling used throughout the sprint.
+
+- 📊 [pip-audit Report](sast-tools/pip-audit-report.md): Identifies vulnerable Flask dependencies
+- 🧪 [Semgrep Report](sast-tools/semgrep-report.docx): Static analysis of insecure patterns
+- 🌐 [OWASP ZAP Report](dast-tools/zap-report.docx): Dynamic scan of running app
+- 📦 [SBOM (CycloneDX)](sast-tools/sbom.json): Software Bill of Materials for supply chain visibility
 
 ---
 
