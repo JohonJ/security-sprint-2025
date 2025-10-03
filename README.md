@@ -9,6 +9,12 @@ Welcome to my hands-on security portfolio, built during a focused 4-day sprint t
 This repo includes a pip-audit scan of the Flask application, identifying known vulnerabilities in dependencies.
 📍 [View the full report](sast-tools/pip-audit-report.md)
 
+✅ Key Findings:
+- `debug=True` detected in `app.py` → refactored to use environment variable:
+  ```python
+  import os
+  app.run(debug=os.getenv("FLASK_DEBUG", "False") == "True")
+
 ✅ All vulnerabilities resolved as of Oct 3, 2025.  
 Dependencies upgraded based on pip-audit findings:
 - Flask → 2.3.2
