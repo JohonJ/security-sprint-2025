@@ -21,11 +21,12 @@ Tested locally and verified with pip-audit: no known vulnerabilities.
 
 📦 Note: This project uses a virtual environment (`venv-secure`) for dependency isolation.  
 To install securely:
+
 ```bash
 python3 -m venv venv-secure
 source venv-secure/bin/activate
 pip install -r requirements.txt
-
+```
 ---
 
 ## 🧱 Project Structure
