@@ -13,7 +13,7 @@ This repo includes a pip-audit scan of the Flask application, identifying known 
 
 - `debug=True` detected in `app.py` → refactored to use environment variable:
 
-  ```python
+```python
   import os
   app.run(debug=os.getenv("FLASK_DEBUG", "False") == "True")
 ```
