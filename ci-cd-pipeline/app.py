@@ -11,5 +11,7 @@ def vulnerable():
     user_input = request.args.get('input')
     return f"You entered: {user_input}"  # ⚠️ Vulnerable to XSS
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == '__main__':  
+    import os
+    app.run(debug=os.getenv("FLASK_DEBUG", "False") == "True")
+
