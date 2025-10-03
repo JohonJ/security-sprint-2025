@@ -16,8 +16,11 @@ This repo includes a pip-audit scan of the Flask application, identifying known 
 ```python
   import os
   app.run(debug=os.getenv("FLASK_DEBUG", "False") == "True")
-  return render_template("response.html", user_input=user_input)
 ```
+- Directly returned format string → replaced with `render_template()` to prevent XSS:
+  ```python
+  return render_template("response.html", user_input=user_input)
+ ```
 
 🛠️ Earlier commits failed Semgrep due to unresolved XSS and debug mode. 
 ✅ All issues remediated and verified in CI as of commit 54023fd.
