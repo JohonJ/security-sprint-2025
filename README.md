@@ -7,8 +7,24 @@ Welcome to my hands-on security portfolio, built during a focused 4-day sprint t
 ## 📊 SAST: pip-audit Report
 
 This repo includes a pip-audit scan of the Flask application, identifying known vulnerabilities in dependencies.
-
 📍 [View the full report](sast-tools/pip-audit-report.md)
+
+✅ All vulnerabilities resolved as of Oct 3, 2025.  
+Dependencies upgraded based on pip-audit findings:
+- Flask → 2.3.2
+- requests → 2.32.4
+- gunicorn → 22.0.0
+- idna → 3.7
+- urllib3 → 2.5.0
+
+Tested locally and verified with pip-audit: no known vulnerabilities.
+
+📦 Note: This project uses a virtual environment (`venv-secure`) for dependency isolation.  
+To install securely:
+```bash
+python3 -m venv venv-secure
+source venv-secure/bin/activate
+pip install -r requirements.txt
 
 ---
 
