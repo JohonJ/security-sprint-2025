@@ -7,9 +7,43 @@ Welcome to my hands-on security portfolio, built during a focused 4-day sprint t
 ## 📊 SAST: pip-audit Report
 
 This repo includes a pip-audit scan of the Flask application, identifying known vulnerabilities in dependencies.
-
 📍 [View the full report](sast-tools/pip-audit-report.md)
 
+✅ Key Findings:
+
+- `debug=True` detected in `app.py` → refactored to use environment variable:
+
+```python
+  import os
+  app.run(debug=os.getenv("FLASK_DEBUG", "False") == "True")
+```
+- Directly returned format string → replaced with `render_template()` to prevent XSS:
+  
+```python
+  return render_template("response.html", user_input=user_input)
+```
+
+🛠️ Earlier commits failed Semgrep due to unresolved XSS and debug mode. 
+✅ All issues remediated and verified in CI as of commit 54023fd.
+
+✅ All vulnerabilities resolved as of Oct 3, 2025.  
+Dependencies upgraded based on pip-audit findings:
+- Flask → 2.3.2
+- requests → 2.32.4
+- gunicorn → 22.0.0
+- idna → 3.7
+- urllib3 → 2.5.0
+
+Tested locally and verified with pip-audit: no known vulnerabilities.
+
+📦 Note: This project uses a virtual environment (`venv-secure`) for dependency isolation.  
+To install securely:
+
+```bash
+python3 -m venv venv-secure
+source venv-secure/bin/activate
+pip install -r requirements.txt
+```
 ---
 
 ## 🧱 Project Structure
