@@ -23,6 +23,19 @@ This repo includes a pip-audit scan of the Flask application, identifying known 
   return render_template("response.html", user_input=user_input)
 ```
 
+## Dynamic Analysis (ZAP)
+🌐 OWASP ZAP Report: Dynamic scan of running app  
+📄 [`zap-report.html`](./dast-tools/zap-report.html)
+
+📦 SBOM (CycloneDX): Software Bill of Materials for supply chain visibility  
+📄 [`sbom.json`](./sast-tools/sbom.json)
+
+# CI/CD Pipeline
+Details on GitHub Actions, automated scans, and integration
+
+## Folder Structure
+Breakdown of `/sast-tools`, `/dast-tools`, `/ci-cd-pipeline`, etc.
+
 🛠️ Earlier commits failed Semgrep due to unresolved XSS and debug mode. 
 ✅ All issues remediated and verified in CI as of commit 54023fd.
 
