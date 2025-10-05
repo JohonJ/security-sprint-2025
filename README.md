@@ -94,8 +94,8 @@ pip install -r requirements.txt
 
 ## 📫 Contact
 
-- **LinkedIn**: [linkedin.com/in/freeman264/](https://www.linkedin.com/in/freeman264/) 
-- **Resume**: [Download PDF](#) *(link to your resume or attach in repo)*
+- **LinkedIn**: [linkedin.com/in/freeman264](https://www.linkedin.com/in/freeman264/)
+- **Resume**: [Download PDF](https://drive.google.com/file/d/1EnVf0PyUDh35joEeTBd33E5IVq_vfOgI/view?usp=drive_link)
 - **Email**: john.freeman.cyber@gmail.com 
 
 ---
