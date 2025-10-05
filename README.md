@@ -94,6 +94,8 @@ pip install -r requirements.txt
 
 ## 📫 Contact
 
+I'm actively exploring remote security roles and PhD opportunities in AI, robotics, and secure systems. Feel free to reach out!
+
 - **LinkedIn**: [linkedin.com/in/freeman264](https://www.linkedin.com/in/freeman264/)
 - **Resume**: [Download PDF](https://drive.google.com/file/d/1EnVf0PyUDh35joEeTBd33E5IVq_vfOgI/view?usp=drive_link)
 - **Email**: john.freeman.cyber@gmail.com 
