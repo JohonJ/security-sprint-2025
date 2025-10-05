@@ -114,12 +114,6 @@ This section highlights vulnerability scans and security tooling used throughout
 
 - 📊 [pip-audit Report](sast-tools/pip-audit-report.md): Identifies vulnerable Flask dependencies
 - 🧪 [Semgrep Report](sast-tools/semgrep-report.docx): Static analysis of insecure patterns
-
-✅ Key Finding:
-- Semgrep flagged insecure string formatting in `app.py`
-- Refactored to use `render_template()` for safe output handling
-- Verified in CI as of commit [`54023fd`](https://github.com/JohonJ/security-sprint-2025/commit/54023fd)
-  
 - 🌐 [OWASP ZAP Report](dast-tools/zap-report.docx): Dynamic scan of running app
 - 📦 [SBOM (CycloneDX)](sast-tools/sbom.json): Software Bill of Materials for supply chain visibility
 
