@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template
+from markupsafe import escape
 import os
 
 app = Flask(__name__)
@@ -12,6 +13,10 @@ def vulnerable():
     user_input = request.args.get('input')
     return render_template("response.html", user_input=user_input)
 
+@app.route('/echo')
+def echo():
+    msg = request.args.get('msg', '')
+    return f"You said: {msg}"
 
 if __name__ == '__main__':  
     import os
