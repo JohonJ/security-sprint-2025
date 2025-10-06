@@ -1,5 +1,10 @@
-# security-sprint-2025
-# 🔐 Security Sprint Portfolio – John Freeman
+# Security-sprint-2025
+# Security Sprint Portfolio – John Freeman
+
+![GitHub last commit](https://img.shields.io/github/last-commit/JohonJ/security-sprint-2025)
+![GitHub repo size](https://img.shields.io/github/repo-size/JohonJ/security-sprint-2025)
+![Build Status](https://img.shields.io/github/actions/workflow/status/JohonJ/security-sprint-2025/security.yml?branch=main)
+![Python Version](https://img.shields.io/badge/Python-3.10-blue.svg)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/JohonJ/security-sprint-2025)
 ![GitHub repo size](https://img.shields.io/github/repo-size/JohonJ/security-sprint-2025)
@@ -8,17 +13,29 @@
 
 Welcome to my hands-on security portfolio, built during a focused 4-day sprint to deepen expertise in CI/CD, OWASP Top 10, DAST, SAST, SCA, SBOM, and threat modeling. Each folder demonstrates practical skills aligned with application security roles, including automation, vulnerability analysis, and secure SDLC practices.
 
+<<<<<<< HEAD
 ### 🔐 Security Sprint: CI/CD, SAST, DAST, SBOM
 
 Designed and documented a reproducible security pipeline integrating Semgrep (SAST), OWASP ZAP (DAST), pip-audit (SCA), and CycloneDX (SBOM) to secure a Flask-based web interface. Automated scans via GitHub Actions and remediated vulnerabilities with reproducible CI workflows. Demonstrated systems-level thinking and modular design applicable to secure robotics and AI pipelines.  
 📁 [View Repo](https://github.com/JohonJ/security-sprint-2025)
+=======
+### Security Sprint: CI/CD, SAST, DAST, SBOM
+>>>>>>> c71de73917e632ab2f2b556c7427942d9de4ce65
 
-## 📊 SAST: pip-audit Report
+Designed and documented a reproducible security pipeline integrating Semgrep (SAST), OWASP ZAP (DAST), pip-audit (SCA), and CycloneDX (SBOM) to secure a Flask-based web interface. Automated scans via GitHub Actions and remediated vulnerabilities with reproducible CI workflows. Demonstrated systems-level thinking and modular design applicable to secure robotics and AI pipelines.  
+[View Repo](https://github.com/JohonJ/security-sprint-2025)
 
+<<<<<<< HEAD
 This repo includes a pip-audit scan of the Flask application, identifying known vulnerabilities in Python dependencies. Findings were triaged and remediated as part of the CI/CD pipeline, demonstrating proactive software composition analysis and secure package hygiene.  
 📍 [View the full report](sast-tools/pip-audit-report.md)
+=======
+## SAST: pip-audit Report
+>>>>>>> c71de73917e632ab2f2b556c7427942d9de4ce65
 
-✅ Key Findings:
+This repo includes a pip-audit scan of the Flask application, identifying known vulnerabilities in Python dependencies. Findings were triaged and remediated as part of the CI/CD pipeline, demonstrating proactive software composition analysis and secure package hygiene.  
+[View the full report](sast-tools/pip-audit-report.md)
+
+Key Findings:
 
 - `debug=True` detected in `app.py` → refactored to use environment variable:
 
@@ -33,11 +50,11 @@ This repo includes a pip-audit scan of the Flask application, identifying known 
 ```
 
 ## Dynamic Analysis (ZAP)
-🌐 OWASP ZAP Report: Dynamic scan of running app  
-📄 [`zap-report.html`](./dast-tools/zap-report.html)
+OWASP ZAP Report: Dynamic scan of running app  
+[`zap-report.html`](./dast-tools/zap-report.html)
 
-📦 SBOM (CycloneDX): Software Bill of Materials for supply chain visibility  
-📄 [`sbom.json`](./sast-tools/sbom.json)
+SBOM (CycloneDX): Software Bill of Materials for supply chain visibility  
+[`sbom.json`](./sast-tools/sbom.json)
 
 # CI/CD Pipeline
 Details on GitHub Actions, automated scans, and integration
@@ -45,10 +62,10 @@ Details on GitHub Actions, automated scans, and integration
 ## Folder Structure
 Breakdown of `/sast-tools`, `/dast-tools`, `/ci-cd-pipeline`, etc.
 
-🛠️ Earlier commits failed Semgrep due to unresolved XSS and debug mode. 
-✅ All issues remediated and verified in CI as of commit 54023fd.
+Earlier commits failed Semgrep due to unresolved XSS and debug mode. 
+All issues remediated and verified in CI as of commit 54023fd.
 
-✅ All vulnerabilities resolved as of Oct 3, 2025.  
+All vulnerabilities resolved as of Oct 3, 2025.  
 Dependencies upgraded based on pip-audit findings:
 - Flask → 2.3.2
 - requests → 2.32.4
@@ -58,7 +75,7 @@ Dependencies upgraded based on pip-audit findings:
 
 Tested locally and verified with pip-audit: no known vulnerabilities.
 
-📦 Note: This project uses a virtual environment (`venv-secure`) for dependency isolation.  
+Note: This project uses a virtual environment (`venv-secure`) for dependency isolation.  
 To install securely:
 
 ```bash
@@ -68,7 +85,7 @@ pip install -r requirements.txt
 ```
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 | Folder              | Description                                                  |
 |---------------------|--------------------------------------------------------------|
@@ -79,7 +96,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **CI/CD**: GitHub Actions
 - **SAST**: Semgrep, SonarQube
@@ -91,7 +108,11 @@ pip install -r requirements.txt
 
 ---
 
+<<<<<<< HEAD
 # 🔐 Security Sprint: CI/CD, SAST, DAST, SBOM
+=======
+# Security Sprint: CI/CD, SAST, DAST, SBOM
+>>>>>>> c71de73917e632ab2f2b556c7427942d9de4ce65
 
 This repo documents a self-directed security sprint focused on reproducible CI/CD pipelines, vulnerability detection, and secure automation. I integrated Semgrep (SAST), OWASP ZAP (DAST), pip-audit (SCA), and CycloneDX (SBOM) to scan and remediate a Flask-based web interface—automating scans via GitHub Actions and documenting findings for recruiter and research visibility.
 
@@ -99,7 +120,11 @@ I'm an Application Security Analyst and Embedded Systems Researcher exploring re
 
 ---
 
+<<<<<<< HEAD
 ## 📌 Key Achievements
+=======
+## Key Achievements
+>>>>>>> c71de73917e632ab2f2b556c7427942d9de4ce65
 
 - Built and secured a CI/CD pipeline with integrated SAST/DAST/SCA tools
 - Modeled threats using OWASP frameworks and documented mitigation strategies
@@ -109,6 +134,7 @@ I'm an Application Security Analyst and Embedded Systems Researcher exploring re
 
 ---
 
+<<<<<<< HEAD
 ## 📊 CI/CD Architecture
 
 ![CI/CD Architecture Diagram](https://copilot.microsoft.com/th/id/BCO.7577306d-522b-49f5-a537-707defa6bea8.png)
@@ -138,6 +164,37 @@ Developed Python scripts for forensic data extraction and CI/CD-integrated vulne
 
 ## 📫 Contact
 
+=======
+## CI/CD Architecture
+
+![CI/CD Architecture Diagram](https://copilot.microsoft.com/th/id/BCO.7577306d-522b-49f5-a537-707defa6bea8.png)
+
+This diagram illustrates the automated security flow for a Flask-based web app using GitHub Actions. It highlights reproducible CI/CD design and modular integration of SAST, DAST, SCA, and SBOM tooling.
+
+---
+
+Below are selected projects that demonstrate my hands-on security engineering, research depth, and readiness for PhD-level inquiry in AI and robotics.
+
+## Featured Projects
+
+### Security Sprint: CI/CD, SAST, DAST, SBOM
+Designed and documented a reproducible security pipeline integrating Semgrep (SAST), OWASP ZAP (DAST), pip-audit (SCA), and CycloneDX (SBOM) to secure a Flask-based web interface. Automated scans via GitHub Actions and remediated vulnerabilities with reproducible CI workflows. Demonstrated systems-level thinking and modular design applicable to secure robotics and AI pipelines.  
+[View Repo](https://github.com/JohonJ/security-sprint-2025)
+
+### EEG-BCI Prosthetic Ecosystem
+Designed a secure embedded system integrating brain-computer interface signals with prosthetic control, emphasizing privacy and resilience. Bridged embedded security with human-centered design for future robotics applications.
+
+### Cryptographic Implementation: Rainbow-PQC & GIFT-COFB
+Benchmarked post-quantum cryptographic primitives and lightweight ciphers on constrained embedded devices. Analyzed performance-security tradeoffs and documented implementation strategies for secure robotics and AI edge deployments.
+
+### Security Automation Scripts
+Developed Python scripts for forensic data extraction and CI/CD-integrated vulnerability scanning. Demonstrated initiative and tooling fluency across cloud and embedded environments.
+
+ ---
+
+## Contact
+
+>>>>>>> c71de73917e632ab2f2b556c7427942d9de4ce65
 I'm actively exploring remote security roles and PhD opportunities in AI, robotics, and secure systems. Feel free to reach out!
 
 - **LinkedIn**: [linkedin.com/in/freeman264](https://www.linkedin.com/in/freeman264/)
@@ -146,7 +203,7 @@ I'm actively exploring remote security roles and PhD opportunities in AI, roboti
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 
 - Expand threat modeling to include multi-tier architectures
 - Explore Terraform for cloud infrastructure as code
@@ -154,18 +211,18 @@ I'm actively exploring remote security roles and PhD opportunities in AI, roboti
 
 ---
 
-## 🔐 Security Reports
+## Security Reports
 
 This section highlights vulnerability scans and security tooling used throughout the sprint.
 
-- 📊 [pip-audit Report](sast-tools/pip-audit-report.md): Identifies vulnerable Flask dependencies
-- 🧪 [Semgrep Report](sast-tools/semgrep-report.docx): Static analysis of insecure patterns
-- 🌐 [OWASP ZAP Report](dast-tools/zap-report.docx): Dynamic scan of running app
-- 📦 [SBOM (CycloneDX)](sast-tools/sbom.json): Software Bill of Materials for supply chain visibility
+- [pip-audit Report](sast-tools/pip-audit-report.md): Identifies vulnerable Flask dependencies
+- [Semgrep Report](sast-tools/semgrep-report.docx): Static analysis of insecure patterns
+- [OWASP ZAP Report](dast-tools/zap-report.docx): Dynamic scan of running app
+- [SBOM (CycloneDX)](sast-tools/sbom.json): Software Bill of Materials for supply chain visibility
 
 ---
 
-## 📊 Repo Status
+## Repo Status
 
 [![Semgrep Scan](https://img.shields.io/badge/Semgrep-Passed-brightgreen)](https://github.com/JohonJ/security-sprint-2025/actions)
 [![ZAP Scan](https://img.shields.io/badge/ZAP-Completed-blue)](https://github.com/JohonJ/security-sprint-2025/actions)
