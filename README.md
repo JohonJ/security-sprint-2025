@@ -1,4 +1,4 @@
-# security-sprint-2025
+# Security-sprint-2025
 # Security Sprint Portfolio – John Freeman
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/JohonJ/security-sprint-2025)
