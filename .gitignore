@@ -11,6 +11,16 @@ Thumbs.db
 *.log
 *.tmp
 
+# macOS junk
+.DS_Store
+._*
+
+# Office temp files
+~$*.docx
+
+# Optional: remove docx if you’ve migrated to markdown
+*.docx
+
 # Python
 __pycache__/
 *.pyc
