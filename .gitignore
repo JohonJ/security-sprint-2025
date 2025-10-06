@@ -3,6 +3,30 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+
+# Node.js
+node_modules/
+dist/
+
+# Build artifacts
+*.exe
+*.out
+*.class
+
+# Secrets
+.env
+
 # C extensions
 *.so
 
