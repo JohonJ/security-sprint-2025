@@ -104,7 +104,6 @@ I'm an Application Security Analyst and Embedded Systems Researcher exploring re
 ---
 
 ## Key Achievements
-5
 
 - Built and secured a CI/CD pipeline with integrated SAST/DAST/SCA tools
 - Modeled threats using OWASP frameworks and documented mitigation strategies
@@ -114,36 +113,6 @@ I'm an Application Security Analyst and Embedded Systems Researcher exploring re
 
 ---
 
-## 📊 CI/CD Architecture
-
-![CI/CD Architecture Diagram](https://copilot.microsoft.com/th/id/BCO.7577306d-522b-49f5-a537-707defa6bea8.png)
-
-This diagram illustrates the automated security flow for a Flask-based web app using GitHub Actions. It highlights reproducible CI/CD design and modular integration of SAST, DAST, SCA, and SBOM tooling.
-
----
-
-Below are selected projects that demonstrate my hands-on security engineering, research depth, and readiness for PhD-level inquiry in AI and robotics.
-
-## 🌟 Featured Projects
-
-### 🔐 Security Sprint: CI/CD, SAST, DAST, SBOM
-Designed and documented a reproducible security pipeline integrating Semgrep (SAST), OWASP ZAP (DAST), pip-audit (SCA), and CycloneDX (SBOM) to secure a Flask-based web interface. Automated scans via GitHub Actions and remediated vulnerabilities with reproducible CI workflows. Demonstrated systems-level thinking and modular design applicable to secure robotics and AI pipelines.  
-📁 [View Repo](https://github.com/JohonJ/security-sprint-2025)
-
-### 🧠 EEG-BCI Prosthetic Ecosystem
-Designed a secure embedded system integrating brain-computer interface signals with prosthetic control, emphasizing privacy and resilience. Bridged embedded security with human-centered design for future robotics applications.
-
-### 🔐 Cryptographic Implementation: Rainbow-PQC & GIFT-COFB
-Benchmarked post-quantum cryptographic primitives and lightweight ciphers on constrained embedded devices. Analyzed performance-security tradeoffs and documented implementation strategies for secure robotics and AI edge deployments.
-
-### ⚙️ Security Automation Scripts
-Developed Python scripts for forensic data extraction and CI/CD-integrated vulnerability scanning. Demonstrated initiative and tooling fluency across cloud and embedded environments.
-
- ---
-
-## 📫 Contact
-
-=======
 ## CI/CD Architecture
 
 ![CI/CD Architecture Diagram](https://copilot.microsoft.com/th/id/BCO.7577306d-522b-49f5-a537-707defa6bea8.png)
